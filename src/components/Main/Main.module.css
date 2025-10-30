@@ -1,0 +1,8 @@
+.main {
+  border: 2px dotted #666;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  min-height: 400px;
+  flex: 1;
+}

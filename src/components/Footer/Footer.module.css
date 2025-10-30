@@ -1,0 +1,19 @@
+.footer {
+  border: 2px dotted #999;
+  padding: 20px;
+  background-color: #f1f3f4;
+  text-align: center;
+  margin-top: auto;
+}
+
+.content {
+  color: #666;
+  line-height: 1.6;
+}
+
+.content p:last-child {
+  margin-bottom: 0;
+  font-size: 0.9em;
+  margin-top: 15px;
+  color: #888;
+}
