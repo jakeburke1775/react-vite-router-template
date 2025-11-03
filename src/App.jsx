@@ -5,9 +5,16 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
+import { useCacheBuster } from './utils/cache-buster';
 import './App.css'
 
 function App() {
+  // Enable cache busting in development
+  useCacheBuster({ 
+    verbose: import.meta.env.DEV, // Only show logs in development
+    updateCSS: true 
+  });
+
   return (
     <Router>
       <div className="app">
